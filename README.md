@@ -1,4 +1,4 @@
-# Free View Synthesis
+# Free View Sythesis
 Code repository for "Free View Synthesis", ECCV 2020.
 
 
@@ -76,7 +76,7 @@ In addition, we provide the estimated camera calibrations, rendered depthmaps us
 In more detail, a single folder `ibr3d_*_scale` (where `scale` is the scale factor with respect to the original images) contains:
 
 - `im_XXXXXXXX.[png|jpg]` the downsampled images used as source images, or as target images.
-- `dm_XXXXXXXX.npy` the rendered depthmaps based on the COLMAP surface reconstruction.
+- `dm_XXXXXXXX.npy` the rendered depthmaps based on the OLMAP surface reconstruction.
 - `Ks.npy` contains the `3x3` intrinsic camera matrices, where `Ks[idx]` corresponds to the depth map `dm_{idx:08d}.npy`.
 - `Rs.npy` contains the `3x3` rotation matrices from the world coordinate system to camera coordinate system.
 - `ts.npy` contains the `3` translation vectors from the world coordinate system to camera coordinate system.
